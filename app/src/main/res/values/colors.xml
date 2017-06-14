@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="notImplement">#ff000d</color>
+    <color name="pile">#ffb640</color>
+    <color name="zoneEcriture">#bebebe</color>
+    <color name="enter">#a640ff</color>
+    <color name="caractere">#4050ff</color>
+</resources>
