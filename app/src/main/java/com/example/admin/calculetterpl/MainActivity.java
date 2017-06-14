@@ -127,9 +127,9 @@ public class MainActivity extends AppCompatActivity {
 
         onEnter(view);
         if(pile.size() > 1) {
-            float newValue = Integer.parseInt(pile.get(0));
+            BigDecimal newValue = new BigDecimal(pile.get(0));
 
-            if (newValue != 0) {
+            if (newValue.compareTo(new BigDecimal("0")) != 0) {
                 calcul(view, "/");
             }
         }
